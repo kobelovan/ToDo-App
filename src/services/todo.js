@@ -34,7 +34,7 @@ export function updateStatus(items, itemId, completed) {
     // Returns a new list of data with updated item.
     return update(items, {
         [index]: {
-            completed: {$set: completed}
+            completed: { $set: completed }
         }
     });
 }

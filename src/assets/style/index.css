@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: black;
     color: #555;
 }
 
@@ -9,7 +9,7 @@ body {
     width: 600px;
     margin: 30px auto;
     border: 1px solid #ddd;
-    border-radius: 2px;
+    border-radius: 50px;
     position: relative;
 }
 
@@ -50,8 +50,9 @@ li.completed label {
 
 footer {
     border-top: 1px solid #ddd;
-    background-color: #F4FCE8;
-    margin: 0 -20px -10px -20px;
+    background-color: silver;
+    border-radius: 50px;
+    margin: 10 -20px -10px -20px;
     padding: 12px 20px;
     position: relative;
     color: #777;
@@ -90,7 +91,7 @@ footer .buttons {
     border-right: 1px solid #ccc;
     margin-right: 15px;
     padding-right: 10px;
-    height: 20px;
+    height: 30px;
 }
 
 .buttons .button {
